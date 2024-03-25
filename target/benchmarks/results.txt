@@ -13,19 +13,19 @@
 
 # Run progress: 0,00% complete, ETA 00:28:00
 # Fork: 1 of 1
-# Warmup Iteration   1: 2029,599 ns/op
-# Warmup Iteration   2: 1892,914 ns/op
-Iteration   1: 1743,204 ns/op
-Iteration   2: 1765,943 ns/op
-Iteration   3: 1751,397 ns/op
-Iteration   4: 1751,658 ns/op
-Iteration   5: 1754,113 ns/op
+# Warmup Iteration   1: 1998,617 ns/op
+# Warmup Iteration   2: 2139,342 ns/op
+Iteration   1: 2182,237 ns/op
+Iteration   2: 1837,504 ns/op
+Iteration   3: 1743,005 ns/op
+Iteration   4: 1837,397 ns/op
+Iteration   5: 1747,645 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkApplyWeights":
-  1753,263 ±(99.9%) 31,563 ns/op [Average]
-  (min, avg, max) = (1743,204, 1753,263, 1765,943), stdev = 8,197
-  CI (99.9%): [1721,701, 1784,826] (assumes normal distribution)
+  1869,558 ±(99.9%) 696,073 ns/op [Average]
+  (min, avg, max) = (1743,005, 1869,558, 2182,237), stdev = 180,768
+  CI (99.9%): [1173,485, 2565,631] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -41,21 +41,21 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkApplyWeights":
 # Benchmark: benchmarkings.PortfolioBenchmark.benchmarkApplyWeights
 # Parameters: (assetsCount = 100)
 
-# Run progress: 4,17% complete, ETA 00:27:03
+# Run progress: 4,17% complete, ETA 00:27:02
 # Fork: 1 of 1
-# Warmup Iteration   1: 18628,304 ns/op
-# Warmup Iteration   2: 17340,331 ns/op
-Iteration   1: 17322,350 ns/op
-Iteration   2: 18974,052 ns/op
-Iteration   3: 17445,187 ns/op
-Iteration   4: 19146,474 ns/op
-Iteration   5: 17472,953 ns/op
+# Warmup Iteration   1: 17803,686 ns/op
+# Warmup Iteration   2: 17394,335 ns/op
+Iteration   1: 19670,240 ns/op
+Iteration   2: 17857,775 ns/op
+Iteration   3: 17601,424 ns/op
+Iteration   4: 17075,001 ns/op
+Iteration   5: 17036,341 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkApplyWeights":
-  18072,203 ±(99.9%) 3487,926 ns/op [Average]
-  (min, avg, max) = (17322,350, 18072,203, 19146,474), stdev = 905,803
-  CI (99.9%): [14584,277, 21560,129] (assumes normal distribution)
+  17848,156 ±(99.9%) 4146,274 ns/op [Average]
+  (min, avg, max) = (17036,341, 17848,156, 19670,240), stdev = 1076,774
+  CI (99.9%): [13701,882, 21994,430] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -73,19 +73,19 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkApplyWeights":
 
 # Run progress: 8,33% complete, ETA 00:25:52
 # Fork: 1 of 1
-# Warmup Iteration   1: 180831,723 ns/op
-# Warmup Iteration   2: 175464,190 ns/op
-Iteration   1: 176079,229 ns/op
-Iteration   2: 175515,327 ns/op
-Iteration   3: 175122,273 ns/op
-Iteration   4: 175855,417 ns/op
-Iteration   5: 175410,959 ns/op
+# Warmup Iteration   1: 184474,462 ns/op
+# Warmup Iteration   2: 184448,203 ns/op
+Iteration   1: 178209,608 ns/op
+Iteration   2: 177500,044 ns/op
+Iteration   3: 177652,154 ns/op
+Iteration   4: 176577,536 ns/op
+Iteration   5: 176811,120 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkApplyWeights":
-  175596,641 ±(99.9%) 1448,440 ns/op [Average]
-  (min, avg, max) = (175122,273, 175596,641, 176079,229), stdev = 376,155
-  CI (99.9%): [174148,201, 177045,080] (assumes normal distribution)
+  177350,092 ±(99.9%) 2539,550 ns/op [Average]
+  (min, avg, max) = (176577,536, 177350,092, 178209,608), stdev = 659,513
+  CI (99.9%): [174810,542, 179889,643] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -101,21 +101,21 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkApplyWeights":
 # Benchmark: benchmarkings.PortfolioBenchmark.benchmarkCalculateReturnsChange
 # Parameters: (assetsCount = 10)
 
-# Run progress: 12,50% complete, ETA 00:24:41
+# Run progress: 12,50% complete, ETA 00:24:42
 # Fork: 1 of 1
-# Warmup Iteration   1: 16803,348 ns/op
-# Warmup Iteration   2: 16550,983 ns/op
-Iteration   1: 16456,168 ns/op
-Iteration   2: 16488,532 ns/op
-Iteration   3: 16595,793 ns/op
-Iteration   4: 16503,101 ns/op
-Iteration   5: 16621,361 ns/op
+# Warmup Iteration   1: 17026,773 ns/op
+# Warmup Iteration   2: 16652,236 ns/op
+Iteration   1: 16665,768 ns/op
+Iteration   2: 16647,921 ns/op
+Iteration   3: 16669,768 ns/op
+Iteration   4: 16651,447 ns/op
+Iteration   5: 16776,077 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkCalculateReturnsChange":
-  16532,991 ±(99.9%) 275,833 ns/op [Average]
-  (min, avg, max) = (16456,168, 16532,991, 16621,361), stdev = 71,633
-  CI (99.9%): [16257,158, 16808,824] (assumes normal distribution)
+  16682,196 ±(99.9%) 205,192 ns/op [Average]
+  (min, avg, max) = (16647,921, 16682,196, 16776,077), stdev = 53,288
+  CI (99.9%): [16477,005, 16887,388] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -131,21 +131,21 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkCalculateReturnsChange":
 # Benchmark: benchmarkings.PortfolioBenchmark.benchmarkCalculateReturnsChange
 # Parameters: (assetsCount = 100)
 
-# Run progress: 16,67% complete, ETA 00:23:30
+# Run progress: 16,67% complete, ETA 00:23:31
 # Fork: 1 of 1
-# Warmup Iteration   1: 168646,968 ns/op
-# Warmup Iteration   2: 165206,930 ns/op
-Iteration   1: 165070,384 ns/op
-Iteration   2: 165511,257 ns/op
-Iteration   3: 165175,379 ns/op
-Iteration   4: 165587,309 ns/op
-Iteration   5: 166454,875 ns/op
+# Warmup Iteration   1: 168917,902 ns/op
+# Warmup Iteration   2: 165010,232 ns/op
+Iteration   1: 164432,727 ns/op
+Iteration   2: 164354,239 ns/op
+Iteration   3: 164553,959 ns/op
+Iteration   4: 164688,496 ns/op
+Iteration   5: 165410,144 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkCalculateReturnsChange":
-  165559,841 ±(99.9%) 2101,672 ns/op [Average]
-  (min, avg, max) = (165070,384, 165559,841, 166454,875), stdev = 545,798
-  CI (99.9%): [163458,169, 167661,513] (assumes normal distribution)
+  164687,913 ±(99.9%) 1629,168 ns/op [Average]
+  (min, avg, max) = (164354,239, 164687,913, 165410,144), stdev = 423,090
+  CI (99.9%): [163058,745, 166317,081] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -161,21 +161,21 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkCalculateReturnsChange":
 # Benchmark: benchmarkings.PortfolioBenchmark.benchmarkCalculateReturnsChange
 # Parameters: (assetsCount = 1000)
 
-# Run progress: 20,83% complete, ETA 00:22:19
+# Run progress: 20,83% complete, ETA 00:22:20
 # Fork: 1 of 1
-# Warmup Iteration   1: 1665797,119 ns/op
-# Warmup Iteration   2: 1629656,675 ns/op
-Iteration   1: 1634586,843 ns/op
-Iteration   2: 1629322,477 ns/op
-Iteration   3: 1629601,416 ns/op
-Iteration   4: 1643852,191 ns/op
-Iteration   5: 1632006,925 ns/op
+# Warmup Iteration   1: 1729233,633 ns/op
+# Warmup Iteration   2: 1676351,966 ns/op
+Iteration   1: 1673159,374 ns/op
+Iteration   2: 1675288,867 ns/op
+Iteration   3: 1676562,730 ns/op
+Iteration   4: 1727608,280 ns/op
+Iteration   5: 1675050,217 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkCalculateReturnsChange":
-  1633873,970 ±(99.9%) 22985,614 ns/op [Average]
-  (min, avg, max) = (1629322,477, 1633873,970, 1643852,191), stdev = 5969,291
-  CI (99.9%): [1610888,356, 1656859,585] (assumes normal distribution)
+  1685533,894 ±(99.9%) 90689,257 ns/op [Average]
+  (min, avg, max) = (1673159,374, 1685533,894, 1727608,280), stdev = 23551,712
+  CI (99.9%): [1594844,637, 1776223,150] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -193,19 +193,19 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkCalculateReturnsChange":
 
 # Run progress: 25,00% complete, ETA 00:21:09
 # Fork: 1 of 1
-# Warmup Iteration   1: 1895,391 ns/op
-# Warmup Iteration   2: 1731,059 ns/op
-Iteration   1: 1721,294 ns/op
-Iteration   2: 1721,618 ns/op
-Iteration   3: 1857,649 ns/op
-Iteration   4: 1728,332 ns/op
-Iteration   5: 1718,616 ns/op
+# Warmup Iteration   1: 1769,702 ns/op
+# Warmup Iteration   2: 1713,151 ns/op
+Iteration   1: 1712,677 ns/op
+Iteration   2: 1721,454 ns/op
+Iteration   3: 1712,212 ns/op
+Iteration   4: 1712,080 ns/op
+Iteration   5: 1722,048 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkCombine":
-  1749,502 ±(99.9%) 233,203 ns/op [Average]
-  (min, avg, max) = (1718,616, 1749,502, 1857,649), stdev = 60,562
-  CI (99.9%): [1516,299, 1982,704] (assumes normal distribution)
+  1716,094 ±(99.9%) 19,919 ns/op [Average]
+  (min, avg, max) = (1712,080, 1716,094, 1722,048), stdev = 5,173
+  CI (99.9%): [1696,175, 1736,013] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -221,21 +221,21 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkCombine":
 # Benchmark: benchmarkings.PortfolioBenchmark.benchmarkCombine
 # Parameters: (assetsCount = 100)
 
-# Run progress: 29,17% complete, ETA 00:19:58
+# Run progress: 29,17% complete, ETA 00:19:59
 # Fork: 1 of 1
-# Warmup Iteration   1: 17675,209 ns/op
-# Warmup Iteration   2: 17189,049 ns/op
-Iteration   1: 17092,262 ns/op
-Iteration   2: 17247,750 ns/op
-Iteration   3: 17169,878 ns/op
-Iteration   4: 17111,545 ns/op
-Iteration   5: 17131,112 ns/op
+# Warmup Iteration   1: 17714,129 ns/op
+# Warmup Iteration   2: 17175,478 ns/op
+Iteration   1: 17359,864 ns/op
+Iteration   2: 17228,043 ns/op
+Iteration   3: 17262,201 ns/op
+Iteration   4: 17211,806 ns/op
+Iteration   5: 17172,160 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkCombine":
-  17150,509 ±(99.9%) 236,730 ns/op [Average]
-  (min, avg, max) = (17092,262, 17150,509, 17247,750), stdev = 61,478
-  CI (99.9%): [16913,780, 17387,239] (assumes normal distribution)
+  17246,815 ±(99.9%) 273,424 ns/op [Average]
+  (min, avg, max) = (17172,160, 17246,815, 17359,864), stdev = 71,007
+  CI (99.9%): [16973,391, 17520,240] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -253,19 +253,19 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkCombine":
 
 # Run progress: 33,33% complete, ETA 00:18:48
 # Fork: 1 of 1
-# Warmup Iteration   1: 181362,260 ns/op
-# Warmup Iteration   2: 179762,233 ns/op
-Iteration   1: 176643,063 ns/op
-Iteration   2: 175427,706 ns/op
-Iteration   3: 179790,471 ns/op
-Iteration   4: 176163,919 ns/op
-Iteration   5: 175973,579 ns/op
+# Warmup Iteration   1: 179836,598 ns/op
+# Warmup Iteration   2: 178034,467 ns/op
+Iteration   1: 182597,243 ns/op
+Iteration   2: 177739,533 ns/op
+Iteration   3: 178645,171 ns/op
+Iteration   4: 177090,734 ns/op
+Iteration   5: 176616,621 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkCombine":
-  176799,748 ±(99.9%) 6652,345 ns/op [Average]
-  (min, avg, max) = (175427,706, 176799,748, 179790,471), stdev = 1727,593
-  CI (99.9%): [170147,403, 183452,092] (assumes normal distribution)
+  178537,860 ±(99.9%) 9215,991 ns/op [Average]
+  (min, avg, max) = (176616,621, 178537,860, 182597,243), stdev = 2393,364
+  CI (99.9%): [169321,869, 187753,852] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -283,19 +283,19 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkCombine":
 
 # Run progress: 37,50% complete, ETA 00:17:37
 # Fork: 1 of 1
-# Warmup Iteration   1: 2111,888 ns/op
-# Warmup Iteration   2: 2105,124 ns/op
-Iteration   1: 2100,713 ns/op
-Iteration   2: 2107,867 ns/op
-Iteration   3: 2115,048 ns/op
-Iteration   4: 2111,456 ns/op
-Iteration   5: 2113,157 ns/op
+# Warmup Iteration   1: 2122,911 ns/op
+# Warmup Iteration   2: 2108,830 ns/op
+Iteration   1: 2100,845 ns/op
+Iteration   2: 2103,330 ns/op
+Iteration   3: 2112,035 ns/op
+Iteration   4: 2106,758 ns/op
+Iteration   5: 2110,316 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkFillRandom":
-  2109,648 ±(99.9%) 21,761 ns/op [Average]
-  (min, avg, max) = (2100,713, 2109,648, 2115,048), stdev = 5,651
-  CI (99.9%): [2087,888, 2131,409] (assumes normal distribution)
+  2106,657 ±(99.9%) 17,976 ns/op [Average]
+  (min, avg, max) = (2100,845, 2106,657, 2112,035), stdev = 4,668
+  CI (99.9%): [2088,681, 2124,632] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -313,19 +313,19 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkFillRandom":
 
 # Run progress: 41,67% complete, ETA 00:16:27
 # Fork: 1 of 1
-# Warmup Iteration   1: 21026,375 ns/op
-# Warmup Iteration   2: 20789,862 ns/op
-Iteration   1: 20763,836 ns/op
-Iteration   2: 20804,576 ns/op
-Iteration   3: 21027,913 ns/op
-Iteration   4: 20923,498 ns/op
-Iteration   5: 20936,513 ns/op
+# Warmup Iteration   1: 21080,455 ns/op
+# Warmup Iteration   2: 20897,937 ns/op
+Iteration   1: 20821,277 ns/op
+Iteration   2: 20768,787 ns/op
+Iteration   3: 20956,447 ns/op
+Iteration   4: 20971,487 ns/op
+Iteration   5: 21025,399 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkFillRandom":
-  20891,267 ±(99.9%) 410,740 ns/op [Average]
-  (min, avg, max) = (20763,836, 20891,267, 21027,913), stdev = 106,668
-  CI (99.9%): [20480,527, 21302,007] (assumes normal distribution)
+  20908,679 ±(99.9%) 417,661 ns/op [Average]
+  (min, avg, max) = (20768,787, 20908,679, 21025,399), stdev = 108,465
+  CI (99.9%): [20491,018, 21326,341] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -343,19 +343,19 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkFillRandom":
 
 # Run progress: 45,83% complete, ETA 00:15:16
 # Fork: 1 of 1
-# Warmup Iteration   1: 221994,722 ns/op
-# Warmup Iteration   2: 213730,105 ns/op
-Iteration   1: 212149,555 ns/op
-Iteration   2: 211822,303 ns/op
-Iteration   3: 212081,800 ns/op
-Iteration   4: 211944,143 ns/op
-Iteration   5: 212019,664 ns/op
+# Warmup Iteration   1: 222720,898 ns/op
+# Warmup Iteration   2: 215207,500 ns/op
+Iteration   1: 213483,894 ns/op
+Iteration   2: 213460,728 ns/op
+Iteration   3: 213525,999 ns/op
+Iteration   4: 214051,506 ns/op
+Iteration   5: 213827,652 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkFillRandom":
-  212003,493 ±(99.9%) 487,376 ns/op [Average]
-  (min, avg, max) = (211822,303, 212003,493, 212149,555), stdev = 126,570
-  CI (99.9%): [211516,117, 212490,869] (assumes normal distribution)
+  213669,956 ±(99.9%) 999,625 ns/op [Average]
+  (min, avg, max) = (213460,728, 213669,956, 214051,506), stdev = 259,600
+  CI (99.9%): [212670,330, 214669,581] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -373,19 +373,19 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkFillRandom":
 
 # Run progress: 50,00% complete, ETA 00:14:06
 # Fork: 1 of 1
-# Warmup Iteration   1: 51,313 ns/op
-# Warmup Iteration   2: 64,528 ns/op
-Iteration   1: 54,383 ns/op
-Iteration   2: 47,346 ns/op
-Iteration   3: 62,090 ns/op
-Iteration   4: 47,759 ns/op
-Iteration   5: 48,123 ns/op
+# Warmup Iteration   1: 55,175 ns/op
+# Warmup Iteration   2: 34,282 ns/op
+Iteration   1: 51,306 ns/op
+Iteration   2: 58,124 ns/op
+Iteration   3: 64,073 ns/op
+Iteration   4: 58,847 ns/op
+Iteration   5: 36,336 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkFindAssetsWithinReturnRange":
-  51,940 ±(99.9%) 24,516 ns/op [Average]
-  (min, avg, max) = (47,346, 51,940, 62,090), stdev = 6,367
-  CI (99.9%): [27,424, 76,456] (assumes normal distribution)
+  53,737 ±(99.9%) 41,334 ns/op [Average]
+  (min, avg, max) = (36,336, 53,737, 64,073), stdev = 10,734
+  CI (99.9%): [12,403, 95,071] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -403,19 +403,19 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkFindAssetsWithinReturnRange":
 
 # Run progress: 54,17% complete, ETA 00:12:55
 # Fork: 1 of 1
-# Warmup Iteration   1: 203,635 ns/op
-# Warmup Iteration   2: 388,766 ns/op
-Iteration   1: 336,299 ns/op
-Iteration   2: 356,114 ns/op
-Iteration   3: 328,566 ns/op
-Iteration   4: 341,051 ns/op
-Iteration   5: 359,689 ns/op
+# Warmup Iteration   1: 308,242 ns/op
+# Warmup Iteration   2: 316,393 ns/op
+Iteration   1: 265,216 ns/op
+Iteration   2: 265,684 ns/op
+Iteration   3: 314,485 ns/op
+Iteration   4: 315,957 ns/op
+Iteration   5: 335,026 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkFindAssetsWithinReturnRange":
-  344,344 ±(99.9%) 50,885 ns/op [Average]
-  (min, avg, max) = (328,566, 344,344, 359,689), stdev = 13,215
-  CI (99.9%): [293,459, 395,228] (assumes normal distribution)
+  299,274 ±(99.9%) 122,922 ns/op [Average]
+  (min, avg, max) = (265,216, 299,274, 335,026), stdev = 31,922
+  CI (99.9%): [176,352, 422,195] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -431,21 +431,21 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkFindAssetsWithinReturnRange":
 # Benchmark: benchmarkings.PortfolioBenchmark.benchmarkFindAssetsWithinReturnRange
 # Parameters: (assetsCount = 1000)
 
-# Run progress: 58,33% complete, ETA 00:11:44
+# Run progress: 58,33% complete, ETA 00:11:45
 # Fork: 1 of 1
-# Warmup Iteration   1: 5012,360 ns/op
-# Warmup Iteration   2: 4996,613 ns/op
-Iteration   1: 5037,136 ns/op
-Iteration   2: 4985,673 ns/op
-Iteration   3: 4892,143 ns/op
-Iteration   4: 4942,707 ns/op
-Iteration   5: 5168,954 ns/op
+# Warmup Iteration   1: 5115,501 ns/op
+# Warmup Iteration   2: 5022,516 ns/op
+Iteration   1: 5062,239 ns/op
+Iteration   2: 5165,490 ns/op
+Iteration   3: 5072,071 ns/op
+Iteration   4: 4999,138 ns/op
+Iteration   5: 5129,910 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkFindAssetsWithinReturnRange":
-  5005,322 ±(99.9%) 407,986 ns/op [Average]
-  (min, avg, max) = (4892,143, 5005,322, 5168,954), stdev = 105,953
-  CI (99.9%): [4597,336, 5413,309] (assumes normal distribution)
+  5085,769 ±(99.9%) 247,688 ns/op [Average]
+  (min, avg, max) = (4999,138, 5085,769, 5165,490), stdev = 64,324
+  CI (99.9%): [4838,082, 5333,457] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -463,19 +463,19 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkFindAssetsWithinReturnRange":
 
 # Run progress: 62,50% complete, ETA 00:10:34
 # Fork: 1 of 1
-# Warmup Iteration   1: 910,517 ns/op
-# Warmup Iteration   2: 954,843 ns/op
-Iteration   1: 934,676 ns/op
-Iteration   2: 935,099 ns/op
-Iteration   3: 931,469 ns/op
-Iteration   4: 927,350 ns/op
-Iteration   5: 920,742 ns/op
+# Warmup Iteration   1: 933,096 ns/op
+# Warmup Iteration   2: 939,949 ns/op
+Iteration   1: 931,340 ns/op
+Iteration   2: 943,488 ns/op
+Iteration   3: 932,974 ns/op
+Iteration   4: 941,657 ns/op
+Iteration   5: 945,289 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkFindMaxTotalReturn":
-  929,867 ±(99.9%) 22,996 ns/op [Average]
-  (min, avg, max) = (920,742, 929,867, 935,099), stdev = 5,972
-  CI (99.9%): [906,871, 952,863] (assumes normal distribution)
+  938,950 ±(99.9%) 24,485 ns/op [Average]
+  (min, avg, max) = (931,340, 938,950, 945,289), stdev = 6,359
+  CI (99.9%): [914,465, 963,434] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -491,21 +491,21 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkFindMaxTotalReturn":
 # Benchmark: benchmarkings.PortfolioBenchmark.benchmarkFindMaxTotalReturn
 # Parameters: (assetsCount = 100)
 
-# Run progress: 66,67% complete, ETA 00:09:23
+# Run progress: 66,67% complete, ETA 00:09:24
 # Fork: 1 of 1
-# Warmup Iteration   1: 8959,549 ns/op
-# Warmup Iteration   2: 9191,257 ns/op
-Iteration   1: 9182,295 ns/op
-Iteration   2: 9190,031 ns/op
-Iteration   3: 9202,431 ns/op
-Iteration   4: 9389,017 ns/op
-Iteration   5: 9243,121 ns/op
+# Warmup Iteration   1: 9130,637 ns/op
+# Warmup Iteration   2: 9383,448 ns/op
+Iteration   1: 9437,511 ns/op
+Iteration   2: 9399,894 ns/op
+Iteration   3: 10048,695 ns/op
+Iteration   4: 9442,787 ns/op
+Iteration   5: 9330,742 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkFindMaxTotalReturn":
-  9241,379 ±(99.9%) 330,373 ns/op [Average]
-  (min, avg, max) = (9182,295, 9241,379, 9389,017), stdev = 85,797
-  CI (99.9%): [8911,006, 9571,752] (assumes normal distribution)
+  9531,926 ±(99.9%) 1125,643 ns/op [Average]
+  (min, avg, max) = (9330,742, 9531,926, 10048,695), stdev = 292,326
+  CI (99.9%): [8406,283, 10657,569] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -523,19 +523,19 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkFindMaxTotalReturn":
 
 # Run progress: 70,83% complete, ETA 00:08:13
 # Fork: 1 of 1
-# Warmup Iteration   1: 92211,821 ns/op
-# Warmup Iteration   2: 95506,679 ns/op
-Iteration   1: 95569,445 ns/op
-Iteration   2: 95554,482 ns/op
-Iteration   3: 95660,784 ns/op
-Iteration   4: 95513,036 ns/op
-Iteration   5: 95612,980 ns/op
+# Warmup Iteration   1: 92046,888 ns/op
+# Warmup Iteration   2: 97046,185 ns/op
+Iteration   1: 95887,631 ns/op
+Iteration   2: 96491,680 ns/op
+Iteration   3: 95769,366 ns/op
+Iteration   4: 96718,641 ns/op
+Iteration   5: 95657,187 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkFindMaxTotalReturn":
-  95582,145 ±(99.9%) 218,144 ns/op [Average]
-  (min, avg, max) = (95513,036, 95582,145, 95660,784), stdev = 56,651
-  CI (99.9%): [95364,001, 95800,289] (assumes normal distribution)
+  96104,901 ±(99.9%) 1812,783 ns/op [Average]
+  (min, avg, max) = (95657,187, 96104,901, 96718,641), stdev = 470,774
+  CI (99.9%): [94292,118, 97917,684] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -551,21 +551,21 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkFindMaxTotalReturn":
 # Benchmark: benchmarkings.PortfolioBenchmark.benchmarkScale
 # Parameters: (assetsCount = 10)
 
-# Run progress: 75,00% complete, ETA 00:07:02
+# Run progress: 75,00% complete, ETA 00:07:03
 # Fork: 1 of 1
-# Warmup Iteration   1: 228,817 ns/op
-# Warmup Iteration   2: 547,640 ns/op
-Iteration   1: 544,887 ns/op
-Iteration   2: 553,291 ns/op
-Iteration   3: 546,234 ns/op
-Iteration   4: 551,337 ns/op
-Iteration   5: 548,806 ns/op
+# Warmup Iteration   1: 229,595 ns/op
+# Warmup Iteration   2: 546,194 ns/op
+Iteration   1: 543,504 ns/op
+Iteration   2: 544,032 ns/op
+Iteration   3: 564,709 ns/op
+Iteration   4: 543,907 ns/op
+Iteration   5: 558,778 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkScale":
-  548,911 ±(99.9%) 13,400 ns/op [Average]
-  (min, avg, max) = (544,887, 548,911, 553,291), stdev = 3,480
-  CI (99.9%): [535,511, 562,311] (assumes normal distribution)
+  550,986 ±(99.9%) 38,674 ns/op [Average]
+  (min, avg, max) = (543,504, 550,986, 564,709), stdev = 10,043
+  CI (99.9%): [512,312, 589,660] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -583,19 +583,19 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkScale":
 
 # Run progress: 79,17% complete, ETA 00:05:52
 # Fork: 1 of 1
-# Warmup Iteration   1: 2089,169 ns/op
-# Warmup Iteration   2: 5399,599 ns/op
-Iteration   1: 5395,753 ns/op
-Iteration   2: 5406,996 ns/op
-Iteration   3: 5411,712 ns/op
-Iteration   4: 5452,122 ns/op
-Iteration   5: 5388,122 ns/op
+# Warmup Iteration   1: 2163,110 ns/op
+# Warmup Iteration   2: 5395,337 ns/op
+Iteration   1: 5400,380 ns/op
+Iteration   2: 5403,362 ns/op
+Iteration   3: 5383,177 ns/op
+Iteration   4: 5395,627 ns/op
+Iteration   5: 5386,004 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkScale":
-  5410,941 ±(99.9%) 95,559 ns/op [Average]
-  (min, avg, max) = (5388,122, 5410,941, 5452,122), stdev = 24,816
-  CI (99.9%): [5315,382, 5506,500] (assumes normal distribution)
+  5393,710 ±(99.9%) 33,990 ns/op [Average]
+  (min, avg, max) = (5383,177, 5393,710, 5403,362), stdev = 8,827
+  CI (99.9%): [5359,720, 5427,700] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -611,21 +611,21 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkScale":
 # Benchmark: benchmarkings.PortfolioBenchmark.benchmarkScale
 # Parameters: (assetsCount = 1000)
 
-# Run progress: 83,33% complete, ETA 00:04:41
+# Run progress: 83,33% complete, ETA 00:04:42
 # Fork: 1 of 1
-# Warmup Iteration   1: 21191,706 ns/op
-# Warmup Iteration   2: 54313,134 ns/op
-Iteration   1: 55521,890 ns/op
-Iteration   2: 54174,959 ns/op
-Iteration   3: 54046,817 ns/op
-Iteration   4: 54090,337 ns/op
-Iteration   5: 54227,572 ns/op
+# Warmup Iteration   1: 21287,854 ns/op
+# Warmup Iteration   2: 54750,092 ns/op
+Iteration   1: 56982,676 ns/op
+Iteration   2: 53652,276 ns/op
+Iteration   3: 53917,347 ns/op
+Iteration   4: 53831,563 ns/op
+Iteration   5: 53882,999 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkScale":
-  54412,315 ±(99.9%) 2403,865 ns/op [Average]
-  (min, avg, max) = (54046,817, 54412,315, 55521,890), stdev = 624,276
-  CI (99.9%): [52008,451, 56816,180] (assumes normal distribution)
+  54453,372 ±(99.9%) 5458,695 ns/op [Average]
+  (min, avg, max) = (53652,276, 54453,372, 56982,676), stdev = 1417,606
+  CI (99.9%): [48994,677, 59912,068] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -643,19 +643,19 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkScale":
 
 # Run progress: 87,50% complete, ETA 00:03:31
 # Fork: 1 of 1
-# Warmup Iteration   1: 193,581 ns/op
-# Warmup Iteration   2: 190,406 ns/op
-Iteration   1: 189,174 ns/op
-Iteration   2: 190,259 ns/op
-Iteration   3: 188,663 ns/op
-Iteration   4: 188,648 ns/op
-Iteration   5: 189,354 ns/op
+# Warmup Iteration   1: 194,484 ns/op
+# Warmup Iteration   2: 191,755 ns/op
+Iteration   1: 188,902 ns/op
+Iteration   2: 189,367 ns/op
+Iteration   3: 189,036 ns/op
+Iteration   4: 191,875 ns/op
+Iteration   5: 190,085 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkTranspose":
-  189,220 ±(99.9%) 2,537 ns/op [Average]
-  (min, avg, max) = (188,648, 189,220, 190,259), stdev = 0,659
-  CI (99.9%): [186,683, 191,756] (assumes normal distribution)
+  189,853 ±(99.9%) 4,696 ns/op [Average]
+  (min, avg, max) = (188,902, 189,853, 191,875), stdev = 1,220
+  CI (99.9%): [185,157, 194,549] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -671,21 +671,21 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkTranspose":
 # Benchmark: benchmarkings.PortfolioBenchmark.benchmarkTranspose
 # Parameters: (assetsCount = 100)
 
-# Run progress: 91,67% complete, ETA 00:02:20
+# Run progress: 91,67% complete, ETA 00:02:21
 # Fork: 1 of 1
-# Warmup Iteration   1: 1299,639 ns/op
-# Warmup Iteration   2: 1269,580 ns/op
-Iteration   1: 1277,555 ns/op
-Iteration   2: 1300,661 ns/op
-Iteration   3: 1280,577 ns/op
-Iteration   4: 1283,502 ns/op
-Iteration   5: 1275,411 ns/op
+# Warmup Iteration   1: 1295,476 ns/op
+# Warmup Iteration   2: 1261,908 ns/op
+Iteration   1: 1360,295 ns/op
+Iteration   2: 1262,680 ns/op
+Iteration   3: 1262,318 ns/op
+Iteration   4: 1267,189 ns/op
+Iteration   5: 1277,628 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkTranspose":
-  1283,541 ±(99.9%) 38,690 ns/op [Average]
-  (min, avg, max) = (1275,411, 1283,541, 1300,661), stdev = 10,048
-  CI (99.9%): [1244,852, 1322,231] (assumes normal distribution)
+  1286,022 ±(99.9%) 161,639 ns/op [Average]
+  (min, avg, max) = (1262,318, 1286,022, 1360,295), stdev = 41,977
+  CI (99.9%): [1124,383, 1447,661] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -703,22 +703,22 @@ Result "benchmarkings.PortfolioBenchmark.benchmarkTranspose":
 
 # Run progress: 95,83% complete, ETA 00:01:10
 # Fork: 1 of 1
-# Warmup Iteration   1: 37764,137 ns/op
-# Warmup Iteration   2: 30506,909 ns/op
-Iteration   1: 30186,813 ns/op
-Iteration   2: 30886,928 ns/op
-Iteration   3: 30841,878 ns/op
-Iteration   4: 30949,531 ns/op
-Iteration   5: 30856,680 ns/op
+# Warmup Iteration   1: 37866,503 ns/op
+# Warmup Iteration   2: 30452,594 ns/op
+Iteration   1: 30448,020 ns/op
+Iteration   2: 31586,729 ns/op
+Iteration   3: 30367,029 ns/op
+Iteration   4: 31438,497 ns/op
+Iteration   5: 30129,618 ns/op
 
 
 Result "benchmarkings.PortfolioBenchmark.benchmarkTranspose":
-  30744,366 ±(99.9%) 1210,667 ns/op [Average]
-  (min, avg, max) = (30186,813, 30744,366, 30949,531), stdev = 314,406
-  CI (99.9%): [29533,699, 31955,033] (assumes normal distribution)
+  30793,979 ±(99.9%) 2573,894 ns/op [Average]
+  (min, avg, max) = (30129,618, 30793,979, 31586,729), stdev = 668,432
+  CI (99.9%): [28220,085, 33367,872] (assumes normal distribution)
 
 
-# Run complete. Total time: 00:28:11
+# Run complete. Total time: 00:28:12
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
@@ -733,27 +733,27 @@ different JVMs are already problematic, the performance difference caused by dif
 modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
 
 Benchmark                                                (assetsCount)  Mode  Cnt        Score       Error  Units
-PortfolioBenchmark.benchmarkApplyWeights                            10  avgt    5     1753,263 ±    31,563  ns/op
-PortfolioBenchmark.benchmarkApplyWeights                           100  avgt    5    18072,203 ±  3487,926  ns/op
-PortfolioBenchmark.benchmarkApplyWeights                          1000  avgt    5   175596,641 ±  1448,440  ns/op
-PortfolioBenchmark.benchmarkCalculateReturnsChange                  10  avgt    5    16532,991 ±   275,833  ns/op
-PortfolioBenchmark.benchmarkCalculateReturnsChange                 100  avgt    5   165559,841 ±  2101,672  ns/op
-PortfolioBenchmark.benchmarkCalculateReturnsChange                1000  avgt    5  1633873,970 ± 22985,614  ns/op
-PortfolioBenchmark.benchmarkCombine                                 10  avgt    5     1749,502 ±   233,203  ns/op
-PortfolioBenchmark.benchmarkCombine                                100  avgt    5    17150,509 ±   236,730  ns/op
-PortfolioBenchmark.benchmarkCombine                               1000  avgt    5   176799,748 ±  6652,345  ns/op
-PortfolioBenchmark.benchmarkFillRandom                              10  avgt    5     2109,648 ±    21,761  ns/op
-PortfolioBenchmark.benchmarkFillRandom                             100  avgt    5    20891,267 ±   410,740  ns/op
-PortfolioBenchmark.benchmarkFillRandom                            1000  avgt    5   212003,493 ±   487,376  ns/op
-PortfolioBenchmark.benchmarkFindAssetsWithinReturnRange             10  avgt    5       51,940 ±    24,516  ns/op
-PortfolioBenchmark.benchmarkFindAssetsWithinReturnRange            100  avgt    5      344,344 ±    50,885  ns/op
-PortfolioBenchmark.benchmarkFindAssetsWithinReturnRange           1000  avgt    5     5005,322 ±   407,986  ns/op
-PortfolioBenchmark.benchmarkFindMaxTotalReturn                      10  avgt    5      929,867 ±    22,996  ns/op
-PortfolioBenchmark.benchmarkFindMaxTotalReturn                     100  avgt    5     9241,379 ±   330,373  ns/op
-PortfolioBenchmark.benchmarkFindMaxTotalReturn                    1000  avgt    5    95582,145 ±   218,144  ns/op
-PortfolioBenchmark.benchmarkScale                                   10  avgt    5      548,911 ±    13,400  ns/op
-PortfolioBenchmark.benchmarkScale                                  100  avgt    5     5410,941 ±    95,559  ns/op
-PortfolioBenchmark.benchmarkScale                                 1000  avgt    5    54412,315 ±  2403,865  ns/op
-PortfolioBenchmark.benchmarkTranspose                               10  avgt    5      189,220 ±     2,537  ns/op
-PortfolioBenchmark.benchmarkTranspose                              100  avgt    5     1283,541 ±    38,690  ns/op
-PortfolioBenchmark.benchmarkTranspose                             1000  avgt    5    30744,366 ±  1210,667  ns/op
+PortfolioBenchmark.benchmarkApplyWeights                            10  avgt    5     1869,558 ±   696,073  ns/op
+PortfolioBenchmark.benchmarkApplyWeights                           100  avgt    5    17848,156 ±  4146,274  ns/op
+PortfolioBenchmark.benchmarkApplyWeights                          1000  avgt    5   177350,092 ±  2539,550  ns/op
+PortfolioBenchmark.benchmarkCalculateReturnsChange                  10  avgt    5    16682,196 ±   205,192  ns/op
+PortfolioBenchmark.benchmarkCalculateReturnsChange                 100  avgt    5   164687,913 ±  1629,168  ns/op
+PortfolioBenchmark.benchmarkCalculateReturnsChange                1000  avgt    5  1685533,894 ± 90689,257  ns/op
+PortfolioBenchmark.benchmarkCombine                                 10  avgt    5     1716,094 ±    19,919  ns/op
+PortfolioBenchmark.benchmarkCombine                                100  avgt    5    17246,815 ±   273,424  ns/op
+PortfolioBenchmark.benchmarkCombine                               1000  avgt    5   178537,860 ±  9215,991  ns/op
+PortfolioBenchmark.benchmarkFillRandom                              10  avgt    5     2106,657 ±    17,976  ns/op
+PortfolioBenchmark.benchmarkFillRandom                             100  avgt    5    20908,679 ±   417,661  ns/op
+PortfolioBenchmark.benchmarkFillRandom                            1000  avgt    5   213669,956 ±   999,625  ns/op
+PortfolioBenchmark.benchmarkFindAssetsWithinReturnRange             10  avgt    5       53,737 ±    41,334  ns/op
+PortfolioBenchmark.benchmarkFindAssetsWithinReturnRange            100  avgt    5      299,274 ±   122,922  ns/op
+PortfolioBenchmark.benchmarkFindAssetsWithinReturnRange           1000  avgt    5     5085,769 ±   247,688  ns/op
+PortfolioBenchmark.benchmarkFindMaxTotalReturn                      10  avgt    5      938,950 ±    24,485  ns/op
+PortfolioBenchmark.benchmarkFindMaxTotalReturn                     100  avgt    5     9531,926 ±  1125,643  ns/op
+PortfolioBenchmark.benchmarkFindMaxTotalReturn                    1000  avgt    5    96104,901 ±  1812,783  ns/op
+PortfolioBenchmark.benchmarkScale                                   10  avgt    5      550,986 ±    38,674  ns/op
+PortfolioBenchmark.benchmarkScale                                  100  avgt    5     5393,710 ±    33,990  ns/op
+PortfolioBenchmark.benchmarkScale                                 1000  avgt    5    54453,372 ±  5458,695  ns/op
+PortfolioBenchmark.benchmarkTranspose                               10  avgt    5      189,853 ±     4,696  ns/op
+PortfolioBenchmark.benchmarkTranspose                              100  avgt    5     1286,022 ±   161,639  ns/op
+PortfolioBenchmark.benchmarkTranspose                             1000  avgt    5    30793,979 ±  2573,894  ns/op

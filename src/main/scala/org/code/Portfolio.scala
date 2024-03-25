@@ -9,7 +9,7 @@ case class Portfolio(data: Array[Array[Double]]):
     val scaledData = data.map(_.map(_ * coefficient))
     Portfolio(scaledData)
 
-  def calculateReturnsChange: Portfolio =
+  def calculateReturnChange: Portfolio =
     val returnsChange = data.map(row => row.sliding(2).map {
       case Array(prev, next) => next - prev
     }.toArray)

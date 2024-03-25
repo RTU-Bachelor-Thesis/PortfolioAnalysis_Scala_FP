@@ -17,7 +17,7 @@ def portfolioAnalysis(): Unit = {
   println("\nScaled portfolio:")
   scaledPortfolio.print()
 
-  val returnsChangePortfolio = initialPortfolio.calculateReturnsChange
+  val returnsChangePortfolio = initialPortfolio.calculateReturnChange
   println("\nChange in returns:")
   returnsChangePortfolio.print()
 
