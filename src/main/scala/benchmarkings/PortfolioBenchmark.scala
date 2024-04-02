@@ -16,14 +16,14 @@ class PortfolioBenchmark {
   @Param(Array("10", "100", "1000"))
   var assetsCount: Int = uninitialized
   var periodsCount: Int = 12
-  var portfolio1: Portfolio = uninitialized
-  var portfolio2: Portfolio = uninitialized
+  var originalPortfolio: Portfolio = uninitialized
+  var additionalPortfolio: Portfolio = uninitialized
   var weightMatrix: Portfolio = uninitialized
 
   @Setup(Level.Iteration)
   def setupPortfolio(): Unit = {
-    portfolio1 = Portfolio.fillRandom(assetsCount, periodsCount, -10.0, 10.0)
-    portfolio2 = Portfolio.fillRandom(assetsCount, periodsCount, -10.0, 10.0)
+    originalPortfolio = Portfolio.fillRandom(assetsCount, periodsCount, -10.0, 10.0)
+    additionalPortfolio = Portfolio.fillRandom(assetsCount, periodsCount, -10.0, 10.0)
     weightMatrix = Portfolio.createWeightsDistribution(assetsCount, periodsCount)
   }
 
@@ -34,36 +34,36 @@ class PortfolioBenchmark {
 
   @Benchmark
   def benchmarkTranspose(): Portfolio = {
-    portfolio1.transpose
+    originalPortfolio.transpose
   }
 
   @Benchmark
   def benchmarkScale(): Portfolio = {
-    portfolio1.scale(Math.PI)
+    originalPortfolio.scale(Math.PI)
   }
 
   @Benchmark
   def benchmarkCalculateReturnsChange(): Portfolio = {
-    portfolio1.calculateReturnChange
+    originalPortfolio.calculateReturnChange
   }
 
   @Benchmark
   def benchmarkCombine(): Portfolio = {
-    Portfolio.combine(portfolio1, portfolio2)
+    Portfolio.combine(originalPortfolio, additionalPortfolio)
   }
 
   @Benchmark
   def benchmarkApplyWeights(): Portfolio = {
-    portfolio1.applyWeights(weightMatrix)
+    originalPortfolio.applyWeights(weightMatrix)
   }
 
   @Benchmark
   def benchmarkFindAssetsWithinReturnRange(): Unit = {
-    portfolio1.findAssetsWithinReturnRange(5, 2, 5)
+    originalPortfolio.findAssetsWithinReturnRange(5, 2, 5)
   }
 
   @Benchmark
   def benchmarkFindMaxTotalReturn(): Double = {
-    portfolio1.findMaxTotalReturn
+    originalPortfolio.findMaxTotalReturn
   }
 }
