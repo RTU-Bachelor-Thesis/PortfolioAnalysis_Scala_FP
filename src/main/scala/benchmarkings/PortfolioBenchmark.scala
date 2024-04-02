@@ -43,7 +43,7 @@ class PortfolioBenchmark {
   }
 
   @Benchmark
-  def benchmarkCalculateReturnsChange(): Portfolio = {
+  def benchmarkCalculateReturnChange(): Portfolio = {
     originalPortfolio.calculateReturnChange
   }
 

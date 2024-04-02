@@ -18,7 +18,7 @@ def portfolioAnalysis(): Unit = {
   scaledPortfolio.print()
 
   val returnChangePortfolio = originalPortfolio.calculateReturnChange
-  println("\nChange in returns: ")
+  println("\nChange in returns on assets: ")
   returnChangePortfolio.print()
 
   val additionalPortfolio = Portfolio.fillRandom(assetsCount, periodsCount, -10.0, 10.0)
@@ -26,7 +26,7 @@ def portfolioAnalysis(): Unit = {
   additionalPortfolio.print()
 
   val combinedPortfolios = Portfolio.combine(originalPortfolio, additionalPortfolio)
-  println("\nCombined profitability of portfolios: ")
+  println("\nTotal profitability of portfolios: ")
   combinedPortfolios.print()
 
   val weightMatrix = Portfolio.createWeightsDistribution(assetsCount, periodsCount)
@@ -40,6 +40,6 @@ def portfolioAnalysis(): Unit = {
   val rangeFilteredAssets = originalPortfolio.findAssetsWithinReturnRange(5, 2, 5)
   println(s"\nIndexes of assets with returns in June greater than 2 and less than 5: ${rangeFilteredAssets.mkString(", ")}")
 
-  val maxReturn = originalPortfolio.findMaxTotalReturn
-  println(f"\nMaximum total return: $maxReturn%.2f")
+  val maxYearProfitability = originalPortfolio.findMaxTotalReturn
+  println(f"\nMaximum year profitability: $maxYearProfitability%.2f")
 }

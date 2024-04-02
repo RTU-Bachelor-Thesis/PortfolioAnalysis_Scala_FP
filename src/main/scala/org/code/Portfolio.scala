@@ -39,6 +39,13 @@ object Portfolio:
     Portfolio(data)
   }
 
+  def combine(portfolio1: Portfolio, portfolio2: Portfolio): Portfolio = {
+    val combinedData = portfolio1.data.zip(portfolio2.data).map {
+      case (row1, row2) => row1.zip(row2).map { case (v1, v2) => v1 + v2 }
+    }
+    Portfolio(combinedData)
+  }
+
   def createWeightsDistribution(assets: Int, periods: Int): Portfolio =
     val random = scala.util.Random
     val weights = Array.fill(periods, assets)(random.nextDouble())
@@ -47,10 +54,3 @@ object Portfolio:
       row.map(_ / sum)
     )
     Portfolio(normalizedWeights).transpose
-
-  def combine(portfolio1: Portfolio, portfolio2: Portfolio): Portfolio = {
-    val combinedData = portfolio1.data.zip(portfolio2.data).map {
-      case (row1, row2) => row1.zip(row2).map { case (v1, v2) => v1 + v2 }
-    }
-    Portfolio(combinedData)
-  }
